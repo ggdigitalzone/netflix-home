@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix hpme page</title>
+    <style>
+        body{
+            width: 100%;
+           background: url(https://www.slashgear.com/img/gallery/netflix-4k-streaming-on-macos-big-sur-to-require-a-t2-security-chip/intro-import.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center;
+           height: 90vh;
+        }
+        .head a{
+            border: 1px solid black;
+            border-radius: 20px;
+            background-color: red;
+            font-size: 30px;
+            padding: 15px;
+            text-decoration: none;
+            color: white;
+            margin-right: 15px;
+        }
+        .head{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .sec{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+        h1, h3, h4{
+            color: white;
+        }
+        h1{
+            font-size: 60px;
+            text-align: center;
+        }
+        h3{
+            font-size: 35px;
+            text-align: center;
+        }
+        h4{
+            font-size: 20px;
+            text-align: center;
+        }
+        #search{
+            width: 250px;
+            height: 40px;
+            border: 3px solid black;
+            padding: 5px;
+        }
+        #btn{
+            border: 3px solid black;
+            font-size: 20px;
+            padding: 15px;
+            text-decoration: none;
+            color: white;
+            background-color: red;
+        }
+        .search{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        @media only screen and (max-width:600px){
+            .head a{
+            border: 1px solid black;
+            border-radius: 20px;
+            background-color: red;
+            font-size: 10px;
+            padding: 15px;
+            text-decoration: none;
+            color: white;
+            margin-right: 15px;
+        }
+        #img{
+            width: 80px;
+        }
+        .head{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .sec{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+        }
+        h1, h3, h4{
+            color: white;
+        }
+        h1{
+            font-size: 35px;
+            text-align: center;
+        }
+        h3{
+            font-size: 20px;
+            text-align: center;
+        }
+        h4{
+            font-size: 10px;
+            text-align: center;
+        }
+        #search{
+            width: 190px;
+            height: 40px;
+            border: 3px solid black;
+            padding: 5px;
+        }
+        #btn{
+            border: 3px solid black;
+            font-size: 8px;
+            padding: 20px;
+            text-decoration: none;
+            color: white;
+            background-color: red;
+        }
+        .search{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png" alt="logo" id="img" width="200px" style="padding: 15px;">
+            <a href="#">Sign up</a>
+        </div>
+    </header>
+    <section class="sec">
+        <h1>Unlimited movies, TV<br>
+        Shows, and more.</h1>
+        <h3>Watch anywhere. Cancel anytime.</h3>
+        <h4>Ready to watch? Enter Your email to create or restart your membership.</h4>
+        <div class="search">
+            <input type="text" id="search" placeholder="Email Address">
+            <a href="#" id="btn">TRY 30 DAYS FREE ></a>
+        </div>
+        <h4>Only new member are eligible for this offer.</h4>
+    </section>
+</body>
+</html>
